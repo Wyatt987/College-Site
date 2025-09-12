@@ -1,0 +1,66 @@
+body {
+    overflow-x: hidden;
+}
+
+.video-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+}
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+}
+.hxw {
+    margin-top: 78vh;
+    margin-bottom: 29px;
+    width: 75px;
+    height: 75px;
+    animation: ScaleUpDown 2s infinite;
+}
+@keyframes ScaleUpDown {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.4);
+    }
+}
+#height {
+    height: 100vh;
+}
+.indiana-red {
+    background-color: #9D2235;
+    animation: fadeRight 1s forwards;
+}
+.indiana-cream {
+    background-color: #EEEDEB;
+    animation: fadeLeft 1s forwards;
+}
+@keyframes fadeRight {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes fadeLeft {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
