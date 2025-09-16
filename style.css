@@ -64,3 +64,34 @@ body {
         opacity: 1;
     }
 }
+#fancy-font {
+    font-family: "arlette", sans-serif;
+font-weight: 400;
+font-style: normal;
+margin-top: 5vh;
+}
+.border-indiana-red {
+    border: 5px solid #9D2235;
+}
+#academic-life {
+    height: 30vh;
+    margin: 5vh;
+}
+.hxw2 {
+    width: 75px;
+    height: 75px;
+    animation: ScaleUpDown 2s infinite;
+}
+.up {
+    animation: slideUp 1s forwards;
+}
+@keyframes slideUp {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(-130%);
+        opacity: 1;
+    }
+}

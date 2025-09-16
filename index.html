@@ -17,6 +17,8 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.typekit.net/yhy6awx.css">
+
     </head>
     <body>
            
@@ -35,8 +37,55 @@
     </div>
 </div>
 <div class="row d-none" id="height">
-    <div class="col-6 indiana-red d-none" id="Left"></div>
-    <div class="col-6 indiana-cream d-none" id="Right"></div>
+    <div class="col-6 indiana-red d-none" id="Left">
+        <div class="row"> <!--Heading-->
+            <div class="col-3"></div>
+            <div class="col-6 d-flex justify-content-center fs-1 text-light" id="fancy-font">Student-life</div>
+            <div class="col-3"></div>
+        </div>
+        <div class="row indiana-cream border-indiana-red rounded" id="academic-life"> <!--Academic Life-->
+            <div class="col-4 text-dark d-flex align-items-center justify-content-center fs-2 mts-2">Academic Life</div>
+            <div class="col-1"></div>
+            <div class="col-7 text-dark d-flex align-items-center justify-content-center fs-5"> <ol>
+                <li>Programs, Majors, & Degree Flexibility</li>
+                <li>Advising, Support & Academic Resources</li>
+                <li>Learning Opportunities & Experience</li>
+                <li>Policies, Pathways & Graduation Support</li>
+                <li>Community & Other Academic Supports</li>
+            </ol> 
+            </div>
+        </div>
+        <div class="row indiana-cream border-indiana-red rounded" id="academic-life"> <!--Academic Life-->
+            <div class="col-7 text-dark d-flex align-items-center justify-content-center fs-5"> <ol>
+                <li>Making friends and building relationships</li>
+                <li>Joining clubs, societies, or student organizations</li>
+                <li>Attending events, parties, and meetups</li>
+                <li>Engaging in campus traditions or student government</li>
+            </ol> 
+            </div>
+            <div class="col-4 text-dark d-flex align-items-center justify-content-center fs-2 mts-2">Social Life</div>
+        </div>
+    </div>
+    
+
+
+
+    <div class="col-6 indiana-cream  d-none" id="Right">
+        <div class="row"> <!--Heading-->
+            <div class="col-3"></div>
+            <div class="col-6 d-flex justify-content-center fs-1 text-dark" id="fancy-font">Majors</div>
+            <div class="col-3"></div>
+        </div>
+        <div class="row">
+            <div id="rosterGrid" class="row g-3">
+            </div>
+        </div>
+    </div> <!--Right side description-->
+</div>
+<div class="row d-none" id="reveal">
+    <div class="col-12 d-flex justify-content-center mt-5">
+        <a href="#ScrollDown2"><img src="imgs/down arrow.png" onclick="ScrollDown()" id="ScrollDown2" class="hxw2" alt="Logo" class="logo"></a>
+    </div>
 </div>
         </main>
         <footer>
