@@ -23,88 +23,85 @@
     <body>
            
         <main>
-            <div class="video-wrapper">
-    <video autoplay muted loop id="myVideo">
-        <source src="videos/Timelapse3.mp4" type="video/mp4">
-    </video>
-    <audio autoplay loop id="myAudio">
-        <source src="audio/relaxing.mp3" type="audio/mp3">
-    </audio>
-</div>
-<div class="row mt-5">
-    <div class="col-12 d-flex justify-content-center mt-5">
-        <a href="#fancy-font"><img src="imgs/down arrow.png" onclick="ScrollDown()" id="firstScroll" class="hxw" alt="Logo" class="logo"></a>
-    </div>
-</div>
-<div class="row d-none" id="height">
-    <div class="col-6 indiana-red d-none" id="Left">
-        <div class="row"> <!--Heading-->
-            <div class="col-3"></div>
-            <div class="col-6 d-flex justify-content-center fs-1 text-light" id="fancy-font">Student-life</div>
-            <div class="col-3"></div>
-        </div>
-        <div class="fade-in-delay-1 row indiana-cream border-indiana-red rounded" id="academic-life"> <!--Academic Life-->
-            <div class="col-4 text-dark d-flex align-items-center justify-content-center fs-2 mts-2">Academic Life</div>
-            <div class="col-1"></div>
-            <div class="col-7 text-dark d-flex align-items-center justify-content-center fs-5"> 
-            <ol>
-                <li>Programs, Majors, & Degree Flexibility</li>
-                <li>Advising, Support & Academic Resources</li>
-                <li>Learning Opportunities & Experience</li>
-                <li>Policies, Pathways & Graduation Support</li>
-                <li>Community & Other Academic Supports</li>
-            </ol> 
+            <div class="container-fluid px-0">
+                <div class="video-wrapper">
+                    <video autoplay muted loop id="myVideo">
+                        <source src="videos/Timelapse3.mp4" type="video/mp4">
+                    </video>
+                    <audio autoplay loop id="myAudio">
+                        <source src="audio/relaxing.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12 d-flex justify-content-center mt-5">
+                        <a href="#fancy-font"><img src="imgs/down arrow.png" onclick="scrollDown()" id="firstScroll" class="hxw img-fluid" alt="Logo"></a>
+                    </div>
+                </div>
+                <div class="row d-none" id="height">
+                    <div class="col-12 col-lg-6 indiana-red d-none" id="Left">
+                        <div class="row">
+                            <div class="col-12 col-md-3"></div>
+                            <div class="col-12 col-md-6 d-flex justify-content-center fs-1 text-light" id="fancy-font">Student-life</div>
+                            <div class="col-12 col-md-3"></div>
+                        </div>
+                        <div class="fade-in-delay-1 row indiana-cream border-indiana-red rounded" id="academic-life">
+                            <div class="col-12 col-md-4 text-dark d-flex align-items-center justify-content-center fs-2 mts-2">Academic Life</div>
+                            <div class="col-12 col-md-1"></div>
+                            <div class="col-12 col-md-7 text-dark d-flex align-items-center justify-content-center fs-5">
+                                <ol>
+                                    <li>Programs, Majors, & Degree Flexibility</li>
+                                    <li>Advising, Support & Academic Resources</li>
+                                    <li>Learning Opportunities & Experience</li>
+                                    <li>Policies, Pathways & Graduation Support</li>
+                                    <li>Community & Other Academic Supports</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="fade-in-delay-2 row indiana-cream border-indiana-red rounded" id="academic-life">
+                            <div class="col-12 col-md-7 text-dark d-flex align-items-center justify-content-center fs-5">
+                                <ol>
+                                    <li>Making friends and building relationships</li>
+                                    <li>Joining clubs, societies, or student organizations</li>
+                                    <li>Attending events, parties, and meetups</li>
+                                    <li>Engaging in campus traditions or student government</li>
+                                </ol>
+                            </div>
+                            <div class="col-12 col-md-4 text-dark d-flex align-items-center justify-content-center fs-2 mts-2">Social Life</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 indiana-cream d-none" id="Right">
+                        <div class="row">
+                            <div class="col-12 col-md-3"></div>
+                            <div class="col-12 col-md-6 d-flex justify-content-center fs-1 text-dark" id="fancy-font">Majors</div>
+                            <div class="col-12 col-md-3"></div>
+                        </div>
+                        <div class="row m-2 m-md-5 fade-in-delay-3">
+                            <div class="col-12 col-md-6 indiana-red rounded mb-3 mb-md-0">
+                                <h1 class="text-light">Information: </h1>
+                                <ol class="text-light">
+                                    <li>Bachelor's Degrees Offered: Over 200</li>
+                                    <li>Minors Offered: Over 70</li>
+                                    <li>Graduate Programs: Over 100</li>
+                                    <li>Professional Programs: Law, Medicine, Business, Education, Public Affairs</li>
+                                    <li>Online Programs: Various undergraduate and graduate degrees available online</li>
+                                </ol>
+                            </div>
+                            <div class="col-12 col-md-6 d-flex justify-content-center">
+                                <img src="imgs/informatics.jpg" class="major-image img-fluid">
+                            </div>
+                        </div>
+                        <div class="row m-2 m-md-5 fade-in-delay-4">
+                            <div class="col-12 col-md-6 indiana-red rounded mb-3 mb-md-0">
+                                <h1 class="text-light d-flex justify-content-center align-items-center">More Information</h1>
+                                <h1 class="btn btn-light d-flex justify-content-center align-items-center mb-3" id="fixed-button" onclick="revealAllSections()"> <a href="#Majors">Click Here to Explore Majors & Minors</a></h1>
+                            </div>
+                            <div class="col-12 col-md-6 d-flex justify-content-center">
+                                <img src="imgs/psychology.jpg" class="major-image img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="fade-in-delay-2 row indiana-cream border-indiana-red rounded" id="academic-life"> <!--Academic Life-->
-            <div class=" col-7 text-dark d-flex align-items-center justify-content-center fs-5"> <ol>
-                <li>Making friends and building relationships</li>
-                <li>Joining clubs, societies, or student organizations</li>
-                <li>Attending events, parties, and meetups</li>
-                <li>Engaging in campus traditions or student government</li>
-            </ol> 
-            </div>
-            <div class="col-4 text-dark d-flex align-items-center justify-content-center fs-2 mts-2">Social Life</div>
-        </div>
-    </div>
-    
-    <div class="col-6 indiana-cream  d-none" id="Right">
-        <div class="row"> <!--Heading-->
-            <div class="col-3"></div>
-            <div class="col-6 d-flex justify-content-center fs-1 text-dark" id="fancy-font">Majors</div>
-            <div class="col-3"></div>
-        </div>
-        <div class="row m-5 fade-in-delay-3">
-            <div class="col-6 indiana-red rounded">
-                <h1 class="text-light">Information: </h1>
-                <ol class="text-light">
-                    <li>Bachelor's Degrees Offered: Over 200</li>
-                    <li>Minors Offered: Over 70</li>
-                    <li>Graduate Programs: Over 100</li>
-                    <li>Professional Programs: Law, Medicine, Business, Education, Public Affairs</li>
-                    <li>Online Programs: Various undergraduate and graduate degrees available online</li>
-                </ol>
-            </div>
-            <div class="col-6 d-flex justify-content-center">
-                <img src="imgs/informatics.jpg" class="major-image">
-            </div>
-        </div>
-         <div class="row m-5 fade-in-delay-4">
-            <div class="col-6 indiana-red rounded">
-                <h1 class="text-light d-flex justify-content-center align-items-center">More Information</h1>
-                <h1 class="btn btn-light d-flex justify-content-center align-items-center mb-3"> Click Here to Explore Majors & Minors</h1>
-            </div>
-            <div class="col-6 d-flex justify-content-center">
-                <img src="imgs/psychology.jpg" class="major-image">
-            </div>
-        </div>
-        <!--<div class="row"> 
-            <div id="rosterGrid" class="row g-3">
-            </div>
-        </div>-->
-        </div>
-    </div> <!--Right side description-->
-</div>
 <div class="row d-none indiana" id="reveal">
     <div class="col-12 d-flex justify-content-center">
         <a href="#did-you-know"><img src="imgs/down arrow.png" onclick="showFactsPage()" id="ScrollDown2" class="hxw2 no-anim" alt="Logo" class="logo"></a>
@@ -136,7 +133,7 @@
             <p class="fs-4 text-center info-paragraph">Indiana University is home to the Hoosiers, with 24 varsity sports teams competing in the NCAA Division I Big Ten Conference. The men's basketball team has won five national championships, and IU's athletic tradition is one of the strongest in the country.</p>
         </div>
             <div class="col-12 d-flex justify-content-center pb-4">
-                <a href="#Notable-Alumni"><img src="imgs/down arrow.png" onclick="showFactsPage()" class="hxw2" alt="Scroll Down Arrow" /></a>
+                <a href="#Notable-Alumni"><img src="imgs/down arrow.png" onclick="showAlumniPage()" class="hxw2" alt="Scroll Down Arrow" /></a>
             </div>
     </div>
     <div class="row min-vh-100 d-flex align-items-center justify-content-center bg-dark text-white d-none" id="alumniPage">
@@ -145,17 +142,29 @@
             <p class="fs-4 text-center info-paragraph">IU has produced many distinguished alumni, including Mark Cuban (entrepreneur and owner of the Dallas Mavericks), Suzanne Collins (author of The Hunger Games), and Hoagy Carmichael (composer of \"Stardust\").</p>
         </div>
             <div class="col-12 d-flex justify-content-center pb-4">
-                <a href="#Tuition"><img src="imgs/down arrow.png" onclick="alumniPage()" class="hxw2" alt="Scroll Down Arrow" /></a>
+                <a href="#Tuition"><img src="imgs/down arrow.png" onclick="showTuitionPage()" class="hxw2" alt="Scroll Down Arrow" /></a>
             </div>
     </div>
-    <div class="row min-vh-100 d-flex align-items-center justify-content-center bg-light text-dark d-none" id="tuitionPage">
+
+    <div class="row min-vh-100 d-flex align-items-center justify-content-center indiana-cream text-dark d-none" id="tuitionPage">
         <div class="col-12 d-flex flex-column align-items-center justify-content-center">
             <h1 class="display-3 mb-4" id="Tuition">Tuition</h1>
             <p class="fs-4 text-center info-paragraph">For the 2025-2026 academic year, in-state undergraduate tuition and fees are approximately $11,500 per year, while out-of-state students pay about $40,000. Financial aid and scholarships are available to help make IU affordable for all students.</p>
         </div>
             <div class="col-12 d-flex justify-content-center pb-4">
-                <img src="imgs/down arrow.png" onclick="tuitionPage()" class="hxw2" alt="Scroll Down Arrow" />
+                <a href="#Majors"><img src="imgs/down arrow.png" onclick="showMajorsPage()" class="hxw2" alt="Scroll Down Arrow" /></a>
             </div>
+    </div>
+
+    <!-- Majors Page -->
+    <div class="row min-vh-100 d-flex align-items-center justify-content-center bg-white text-dark d-none" id="majorsPage">
+        <div class="col-12 d-flex flex-column align-items-center justify-content-center">
+            <h1 class="display-3 mb-4" id="Majors">Majors</h1>
+                <div class="row mx-auto" id="majorSection"> 
+                <div id="rosterGrid" class="row g-3">
+                </div>
+        </div>
+        </div>
     </div>
 
         </main>

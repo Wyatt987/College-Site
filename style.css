@@ -1,3 +1,4 @@
+
 .info-paragraph {
     max-width: 700px;
     margin-left: auto;
@@ -68,6 +69,10 @@ body {
 }
 #height {
     height: 100vh;
+}
+#fixed-button {
+    text-decoration: none;
+    color: white;
 }
 .indiana-red {
     background-color: #9D2235;
@@ -174,4 +179,54 @@ margin-top: 5vh;
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
+}
+
+.card.major-card {
+    border: 2px solid #9D2235;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(157,34,53,0.12), 0 1.5px 6px rgba(0,0,0,0.08);
+    background: linear-gradient(135deg, #EEEDEB 80%, #fff 100%);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.card.major-card:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 8px 32px rgba(157,34,53,0.18), 0 3px 12px rgba(0,0,0,0.12);
+}
+.major-image {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 0 auto 16px auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+.card-title {
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: #9D2235;
+    margin-bottom: 0.5rem;
+}
+.badge {
+    font-size: 0.95rem;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    background: #f7c873;
+    color: #9D2235;
+    margin-bottom: 0.5rem;
+}
+.card-body {
+    padding-bottom: 1.2rem;
+}
+.btn-primary {
+    background-color: #9D2235;
+    border: none;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+.btn-primary:hover {
+    background-color: #7a1a2a;
+}
+#majorSection {
+    margin-top: 3vh;
+    margin-bottom: 5vh;
 }
