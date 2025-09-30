@@ -230,3 +230,9 @@ margin-top: 5vh;
     margin-top: 3vh;
     margin-bottom: 5vh;
 }
+#rosterGrid {
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    gap: 10px;
+    justify-items: center;
+    align-items: start;}
