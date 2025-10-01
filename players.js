@@ -39,35 +39,28 @@ const iuMajorsInfo = [
     futureSchoolingOptionsAfterMajor: 'Master’s or Ph.D. in Computer Science, Data Science, Cybersecurity, or Artificial Intelligence',
     jobOptions: 'Software Engineer, Data Scientist, Cybersecurity Analyst, AI/ML Engineer, Systems Architect',
     funFactAboutMajor: 'The Luddy School offers a unique Intelligent Systems Engineering program in addition to Computer Science—one of the first of its kind.',
-    photo: 'https://luddy.indiana.edu/images/photos/students-luddy.jpg'
+    photo: 'imgs/comp-sci.jpg'
   },
   {
     Major: 'Marketing',
     futureSchoolingOptionsAfterMajor: 'MBA, Master’s in Marketing, Data Analytics, or Communications',
     jobOptions: 'Marketing Manager, Brand Strategist, Market Research Analyst, Digital Marketing Specialist, Sales Director',
     funFactAboutMajor: 'IU’s Kelley School of Business offers a nationally ranked marketing program with hands-on projects and internships.',
-    photo: 'https://kelley.iu.edu/images/marketing-classroom.jpg'
+    photo: 'imgs/marketing.jpg'
   },
   {
     Major: 'Education',
     futureSchoolingOptionsAfterMajor: 'Master’s or Ph.D. in Education, School Administration, Counseling',
     jobOptions: 'Teacher, School Administrator, Curriculum Designer, Education Consultant, Counselor',
     funFactAboutMajor: 'IU’s School of Education is one of the largest in the Midwest and has produced thousands of teachers and leaders.',
-    photo: 'https://education.indiana.edu/images/building-exterior.jpg'
+    photo: 'imgs/education.jpg'
   },
   {
     Major: 'Nursing',
     futureSchoolingOptionsAfterMajor: 'Master’s or Doctorate in Nursing, Nurse Practitioner, Healthcare Administration',
     jobOptions: 'Registered Nurse, Nurse Practitioner, Clinical Nurse Specialist, Nurse Educator, Healthcare Manager',
     funFactAboutMajor: 'IU School of Nursing is ranked among the top 25 in the nation and offers clinical experience at major hospitals.',
-    photo: 'https://nursing.iu.edu/images/nursing-students.jpg'
-  },
-  {
-    Major: 'Environmental Science',
-    futureSchoolingOptionsAfterMajor: 'Master’s or Ph.D. in Environmental Science, Public Policy, Sustainability',
-    jobOptions: 'Environmental Consultant, Sustainability Manager, Field Scientist, Policy Analyst, Conservationist',
-    funFactAboutMajor: 'IU’s program emphasizes hands-on fieldwork and research in Indiana’s diverse ecosystems.',
-    photo: 'https://earth.indiana.edu/images/environmental-fieldwork.jpg'
+    photo: 'imgs/nursing.jpg'
   }
 ];
 
